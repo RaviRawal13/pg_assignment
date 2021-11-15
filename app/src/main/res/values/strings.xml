@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">pg_assignment</string>
+    <string name="app_name">Image Viewer</string>
+
+
+    <string name="arg_photo">ARG_PHOTO</string>
+
+    <string name="screen_home_title_str">Home</string>
+    <string name="screen_photo_details_title_str">Photo Details</string>
+
+    <string name="search_photos">Search Photos</string>
+    <string name="title_explore">Explore</string>
+    <string name="no_result_found">No Result Found</string>
+    <string name="results_could_not_be_loaded">Results could not be loaded</string>
+    <string name="retry">Retry</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="menu_filter">Change Columns</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+
+    <string-array name="column_options">
+        <item>Two items</item>
+        <item>Three items</item>
+        <item>Four items</item>
+    </string-array>
+
 </resources>

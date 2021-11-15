@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.imageview.ShapeableImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/photo_view"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_padding_item"
+    android:background="@color/color_box_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:scaleType="fitXY"
+    android:paddingStart="@dimen/padding_photo_item"
+    android:paddingEnd="@dimen/padding_photo_item"
+    android:paddingBottom="@dimen/padding_photo_item"
+    android:transitionName="shared_element_container"
+    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent"
+    tools:src="@tools:sample/backgrounds/scenic" />
